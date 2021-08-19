@@ -7,7 +7,7 @@ function App() {
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
-          testing...
+          This is react with Travis CI.
         </p>
         <a
           className="App-link"
