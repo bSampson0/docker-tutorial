@@ -6,4 +6,6 @@ before_install:
   - docker build -t besampson0/docker-tutorial -f Dockerfile.dev .
 
 script:
-  - docker run besampson0/docker-tutorial npm run test -- --coverage
+  - docker run -e CI=true besampson0/docker-tutorial npm run test
+
+language: generic
