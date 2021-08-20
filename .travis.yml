@@ -14,7 +14,7 @@ deploy:
   provider: elasticbeanstalk
   region: "us-east-2"
   app: "bryce-docker"
-  env: "Brycedocker-env"
+  env: "Brycedocker-env-1"
   bucket_name: "elasticbeanstalk-us-east-2-338526024944"
   bucket_path: "bryce-docker"
   on:
