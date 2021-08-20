@@ -13,10 +13,10 @@ language: generic
 deploy:
   provider: elasticbeanstalk
   region: "us-east-2"
-  app: "docker-react"
-  env: "dockerreact-env"
+  app: "bryce-docker"
+  env: "Brycedocker-env"
   bucket_name: "elasticbeanstalk-us-east-2-338526024944"
-  bucket_path: "docker-react"
+  bucket_path: "bryce-docker"
   on:
     branch: main
   access_key_id: $AWS_ACCESS_KEY
